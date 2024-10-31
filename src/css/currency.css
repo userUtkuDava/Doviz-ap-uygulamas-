@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.currency-div {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    background-color: transparent;
+    border: solid 2px black;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.currency-title {
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.Para-Miktarı {
+    width: 75px;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Doviz-Birimi {
+    width: 70px;
+    height: 35px;
+    margin-right: 10px;
+
+
+}
+
+.btn-div {
+    margin-top: 50px;
+}
+
+.btn-process {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
